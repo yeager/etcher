@@ -3,6 +3,11 @@ import { initReactI18next } from 'react-i18next';
 import zh_CN_translation from './i18n/zh-CN';
 import zh_TW_translation from './i18n/zh-TW';
 import en_translation from './i18n/en';
+import sv_translation from './i18n/sv';
+import de_translation from './i18n/de';
+import fr_translation from './i18n/fr';
+import it_translation from './i18n/it';
+import pt_BR_translation from './i18n/pt-BR';
 
 export function langParser() {
 	if (process.env.LANG !== undefined) {
@@ -20,6 +25,8 @@ export function langParser() {
 			else {
 				return 'zh-TW';
 			} // Traditional Chinese
+		case 'pt':
+			return 'pt-BR';
 		default:
 			return lang.substr(0, 2);
 	}
@@ -36,9 +43,14 @@ i18next.use(initReactI18next).init({
 		'zh-CN': zh_CN_translation,
 		'zh-TW': zh_TW_translation,
 		en: en_translation,
+		sv: sv_translation,
+		de: de_translation,
+		fr: fr_translation,
+		it: it_translation,
+		'pt-BR': pt_BR_translation,
 	},
 });
 
-export const supportedLocales = ['en', 'zh'];
+export const supportedLocales = ['en', 'zh', 'sv', 'de', 'fr', 'it', 'pt-BR'];
 
 export default i18next;
