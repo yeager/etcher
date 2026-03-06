@@ -144,6 +144,14 @@ const translation = {
 			trimExtPartitions:
 				'Espace libre supprimé sur les images brutes (dans les partitions de type ext)',
 		},
+		analytics: {
+			notice:
+				"Etcher collecte une quantité limitée de données anonymes pour améliorer l'expérience utilisateur. Vous pouvez vous désinscrire dans les",
+			settings: 'paramètres',
+			moreInfo:
+				"Pour plus d'informations sur l'utilisation de ces données, consultez notre",
+			privacyPolicy: 'politique de confidentialité',
+		},
 		menu: {
 			edit: 'Édition',
 			view: 'Affichage',

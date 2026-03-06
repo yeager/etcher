@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 
+import * as i18next from 'i18next';
 import CogSvg from '@fortawesome/fontawesome-free/svgs/solid/gear.svg';
 import CloseSvg from '@fortawesome/fontawesome-free/svgs/solid/x.svg';
 import QuestionCircleSvg from '@fortawesome/fontawesome-free/svgs/solid/circle-question.svg';
@@ -289,22 +290,21 @@ export class MainPage extends React.Component<
 						<Flex alignItems="center" justifyContent="space-between">
 							<Flex flexDirection="column">
 								<div>
-									Etcher collects a limited amount of anonymous data to help us
-									improve user experience. You can opt out in the{' '}
+									{i18next.t('analytics.notice')}{' '}
 									<Link onClick={() => this.setState({ hideSettings: false })}>
-										settings
+										{i18next.t('analytics.settings')}
 									</Link>
 									.
 								</div>
 								<div>
-									For more information about how we use this data, see our{' '}
+									{i18next.t('analytics.moreInfo')}{' '}
 									<Link
 										onClick={(e) => {
 											e.stopPropagation();
 											openExternal('https://www.balena.io/privacy-policy');
 										}}
 									>
-										privacy policy
+										{i18next.t('analytics.privacyPolicy')}
 									</Link>
 									.
 								</div>

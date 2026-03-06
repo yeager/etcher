@@ -141,6 +141,14 @@ const translation = {
 			trimExtPartitions:
 				'Nicht zugewiesenen Speicherplatz auf Roh-Abbildern (in Partitionen vom Typ ext) kürzen',
 		},
+		analytics: {
+			notice:
+				'Etcher sammelt eine begrenzte Menge anonymer Daten, um die Benutzererfahrung zu verbessern. Sie können dies in den',
+			settings: 'Einstellungen',
+			moreInfo:
+				'Weitere Informationen zur Verwendung dieser Daten finden Sie in unserer',
+			privacyPolicy: 'Datenschutzrichtlinie',
+		},
 		menu: {
 			edit: 'Bearbeiten',
 			view: 'Ansicht',

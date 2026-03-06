@@ -140,6 +140,14 @@ const translation = {
 			trimExtPartitions:
 				'Trim unallocated space on raw images (in ext-type partitions)',
 		},
+		analytics: {
+			notice:
+				'Etcher collects a limited amount of anonymous data to help us improve user experience. You can opt out in the',
+			settings: 'settings',
+			moreInfo:
+				'For more information about how we use this data, see our',
+			privacyPolicy: 'privacy policy',
+		},
 		menu: {
 			edit: 'Edit',
 			view: 'View',

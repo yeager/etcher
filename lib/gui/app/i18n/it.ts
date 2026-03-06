@@ -141,6 +141,14 @@ const translation = {
 			trimExtPartitions:
 				'Taglia spazio non allocato nelle immagini RAW (partizioni di tipo EXT)',
 		},
+		analytics: {
+			notice:
+				"Etcher raccoglie una quantità limitata di dati anonimi per migliorare l'esperienza utente. Puoi disattivarlo nelle",
+			settings: 'impostazioni',
+			moreInfo:
+				'Per maggiori informazioni su come utilizziamo questi dati, consulta la nostra',
+			privacyPolicy: 'informativa sulla privacy',
+		},
 		menu: {
 			edit: 'Modifica',
 			view: 'Visualizza',

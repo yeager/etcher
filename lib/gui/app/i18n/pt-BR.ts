@@ -141,6 +141,14 @@ const translation = {
 			trimExtPartitions:
 				'Corte o espaço não alocado em imagens brutas (em partições do tipo ext)',
 		},
+		analytics: {
+			notice:
+				'O Etcher coleta uma quantidade limitada de dados anônimos para nos ajudar a melhorar a experiência do usuário. Você pode desativar nas',
+			settings: 'configurações',
+			moreInfo:
+				'Para mais informações sobre como usamos esses dados, consulte nossa',
+			privacyPolicy: 'política de privacidade',
+		},
 		menu: {
 			edit: 'Editar',
 			view: 'Visualizar',

@@ -141,6 +141,14 @@ const translation = {
 			trimExtPartitions:
 				'Trimma oallokerat utrymme på råavbilder (i partitioner av ext-typ)',
 		},
+		analytics: {
+			notice:
+				'Etcher samlar in en begränsad mängd anonym data för att hjälpa oss förbättra användarupplevelsen. Du kan välja bort detta i',
+			settings: 'inställningar',
+			moreInfo:
+				'För mer information om hur vi använder dessa data, se vår',
+			privacyPolicy: 'integritetspolicy',
+		},
 		menu: {
 			edit: 'Redigera',
 			view: 'Visa',
