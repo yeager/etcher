@@ -123,7 +123,7 @@ const translation = {
 			skip: 'La convalida è stata saltata',
 			moreInfo: 'altre info',
 			speedTip:
-				"La velocità viene calcolata dividendo la dimensione dell'immagine per il tempo di scrittura.\nLe immagini disco con partizioni EXT vengono scritte più velocemente poiché è possibile saltare le parti non usate.',
+				"La velocità viene calcolata dividendo la dimensione dell'immagine per il tempo di scrittura.\nLe immagini disco con partizioni EXT vengono scritte più velocemente poiché è possibile saltare le parti non usate.",
 			speed: 'Velocità effettiva: {{speed}} MB/s',
 			speedShort: '{{speed}} MB/s',
 			eta: 'STIMATO: {{eta}}',

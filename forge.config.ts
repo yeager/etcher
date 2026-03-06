@@ -44,6 +44,10 @@ const config: ForgeConfig = {
 		extraResource: [
 			'lib/shared/sudo/sudo-askpass.osascript-zh.js',
 			'lib/shared/sudo/sudo-askpass.osascript-en.js',
+			'lib/shared/sudo/sudo-askpass.osascript-sv.js',
+			'lib/shared/sudo/sudo-askpass.osascript-fr.js',
+			'lib/shared/sudo/sudo-askpass.osascript-pt-br.js',
+			'lib/shared/catalina-sudo/sudo-askpass.osascript-de.js',
 		],
 		osxSign: {
 			optionsForFile: () => ({
